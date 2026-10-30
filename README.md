@@ -6,12 +6,12 @@ An intelligent multi-agent travel planning system built with **Microsoft AutoGen
 
 ## Features
 
-- ** Multi-Agent Collaboration**: Two specialized agents (`Travel_Planner` and `Researcher`) collaborate in a structured Round-Robin group chat.
-- ** Powered by Google Gemini**: Built on modern, cost-efficient Gemini models (`gemini-2.5-flash` by default) using the official Google AI Studio API.
-- ** Real-Time Travel Search**: Live web search integration via Tavily Search returns current hotel rates, attractions, restaurant tips, and opening hours.
-- ** Secure & Safe Parsing**: Zero `eval()` vulnerabilities; utilizes safe JSON and literal evaluation to parse search data.
-- ** Interactive & CLI Support**: Run interactive prompts or supply custom travel requests directly from the command line.
-- ** Configurable & Extensible**: Environment-driven settings with automated variable validation.
+- **Multi-Agent Collaboration**: Two specialized agents (`Travel_Planner` and `Researcher`) collaborate in a structured Round-Robin group chat.
+- **Powered by Google Gemini**: Built on modern, cost-efficient Gemini models (`gemini-2.5-flash` by default) using the official Google AI Studio API.
+- **Real-Time Travel Search**: Live web search integration via Tavily Search returns current hotel rates, attractions, restaurant tips, and opening hours.
+- **Secure & Safe Parsing**: Zero `eval()` vulnerabilities; utilizes safe JSON and literal evaluation to parse search data.
+- **Interactive & CLI Support**: Run interactive prompts or supply custom travel requests directly from the command line.
+- **Configurable & Extensible**: Environment-driven settings with automated variable validation.
 
 ---
 
