@@ -1,0 +1,30 @@
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+venv/
+env/
+travel_env/
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary / Scratch
+scratch/
