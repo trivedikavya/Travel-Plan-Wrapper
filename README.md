@@ -1,21 +1,21 @@
-# 🌍 AutoGen Travel Planner (Google Gemini & Tavily Search)
+# AutoGen Travel Planner (Google Gemini & Tavily Search)
 
 An intelligent multi-agent travel planning system built with **Microsoft AutoGen v0.4**, powered by **Google Gemini** (via Google AI Studio) and real-time web search powered by **Tavily**.
 
 ---
 
-## ✨ Features
+## Features
 
-- **🤖 Multi-Agent Collaboration**: Two specialized agents (`Travel_Planner` and `Researcher`) collaborate in a structured Round-Robin group chat.
-- **⚡ Powered by Google Gemini**: Built on modern, cost-efficient Gemini models (`gemini-2.5-flash` by default) using the official Google AI Studio API.
-- **🔍 Real-Time Travel Search**: Live web search integration via Tavily Search returns current hotel rates, attractions, restaurant tips, and opening hours.
-- **🛡️ Secure & Safe Parsing**: Zero `eval()` vulnerabilities; utilizes safe JSON and literal evaluation to parse search data.
-- **💻 Interactive & CLI Support**: Run interactive prompts or supply custom travel requests directly from the command line.
-- **⚙️ Configurable & Extensible**: Environment-driven settings with automated variable validation.
+- ** Multi-Agent Collaboration**: Two specialized agents (`Travel_Planner` and `Researcher`) collaborate in a structured Round-Robin group chat.
+- ** Powered by Google Gemini**: Built on modern, cost-efficient Gemini models (`gemini-2.5-flash` by default) using the official Google AI Studio API.
+- ** Real-Time Travel Search**: Live web search integration via Tavily Search returns current hotel rates, attractions, restaurant tips, and opening hours.
+- ** Secure & Safe Parsing**: Zero `eval()` vulnerabilities; utilizes safe JSON and literal evaluation to parse search data.
+- ** Interactive & CLI Support**: Run interactive prompts or supply custom travel requests directly from the command line.
+- ** Configurable & Extensible**: Environment-driven settings with automated variable validation.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
                           User Request
@@ -56,7 +56,7 @@ An intelligent multi-agent travel planning system built with **Microsoft AutoGen
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 TRAVEL_PLANNER/
@@ -84,7 +84,7 @@ TRAVEL_PLANNER/
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **Python**: Version 3.10, 3.11, or 3.12 (64-bit recommended)
 - **Google AI Studio API Key**: Free API key for Gemini
@@ -93,7 +93,7 @@ TRAVEL_PLANNER/
 
 ---
 
-## 🔑 Obtaining API Keys
+##  Obtaining API Keys
 
 ### 1. Google Gemini API Key
 1. Go to [Google AI Studio](https://aistudio.google.com/).
@@ -107,7 +107,7 @@ TRAVEL_PLANNER/
 
 ---
 
-## 🚀 Setup & Installation (Windows)
+##  Setup & Installation (Windows)
 
 Open PowerShell in the project directory:
 
@@ -157,7 +157,7 @@ TERMINATION_WORD=stop
 
 ---
 
-## 🏃 Running the Application
+##  Running the Application
 
 ### Option A: Interactive Mode
 Run without arguments to be prompted for your query (or press Enter to use the default 5-day Paris trip):
@@ -181,7 +181,7 @@ python main.py "Plan a 7-day family trip to Tokyo and Kyoto with train tips"
 
 ---
 
-## 🧪 Running Automated Tests
+##  Running Automated Tests
 
 Run the test suite using `pytest`:
 ```powershell
@@ -199,7 +199,7 @@ All 11 unit tests verify:
 
 ---
 
-## ⏱️ API Rate Limits & Free-Tier Considerations
+##  API Rate Limits & Free-Tier Considerations
 
 - **Google AI Studio (Gemini 2.5 Flash)**:
   - Free tier includes generous RPM (requests per minute) and RPD (requests per day) limits.
@@ -211,7 +211,7 @@ All 11 unit tests verify:
 
 ---
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 | Issue | Cause | Solution |
 | :--- | :--- | :--- |
